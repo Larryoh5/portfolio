@@ -1,2 +1,2 @@
-# Hufflepuff
-JS quiz site
+# ohakaportfolio.github.io
+Larry Ohaka Portfolio
