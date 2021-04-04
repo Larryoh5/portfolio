@@ -14,6 +14,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 3em;
   }
+
+  span{
+    font-size: 20px;
+   
+  }
+
+
 li a{
   color: rgb(43, 43, 43);
   text-decoration: none;
@@ -22,54 +29,44 @@ li a{
   h5{
     font-family: 'Montserrat', sans-serif;
     line-height: 1em;
-    color: white;
+    color: rgb(220, 220, 220);
     font-size: 50px;
 }
   
   .container-main {
    
-    width: 70%;
+    width: 75%;
     float: left;
     height: 100vh;
     overflow-x: scroll;
     overflow-y: scroll; 
-    background: #EFF0F1;
+    background: #d8d8d8;
     overflow: scroll;
+  
 }
 
 
-.container5 {
-    max-width: 100%;
-    width: 100%;
-    
-    
-}
+
 
 .inline-block{
     display: inline-block;
-    padding: 10px;
-    
-
+    padding: 20px;
 }
 
 .text-block {
-color: honeydew;
+color: rgb(213, 213, 213);
 }
 
 .column1 p{
 font-size: 17px;
 }
 
-.sec1{
-    display:inline-block;
-}
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    
-    padding: 10px;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    padding: 20px;
     
   }
   
@@ -88,23 +85,6 @@ font-size: 17px;
     
   }
 
-
-
-  #container {
-    height:50% ;
-      width: 100%;
-     
-      position: relative;
-      border-radius: 6px;
-         top: -60px;
-         text-align: center;
-         padding-bottom: 40px;
-         padding-top: 200px;
-         
-    
-     }
-
-
      .row{
         display: inline-flex;
         text-align:center;
@@ -112,32 +92,9 @@ font-size: 17px;
         width: 100%;
      }
 
+     
 
-     div.column{
-        vertical-align: top;
-        display: inline-block;
-        text-align:center;
-        width: 100%;  
-        padding: 15px;
-        margin-inline: 5px;
-      
-    text-align: center;
-    font-size: 20px;
-    border-radius: 6px;
-    box-shadow:  2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
-
-    }
-
-
-    .column p{
-        font-size: 16px;
-        text-align: left;
-    }
+    
 /* Menu */
   
   .sidenav {
@@ -330,8 +287,8 @@ width: 100%;
   margin: -7px 0 0 -7px;
   border-left: none;
   border-top: none;
-  border-right: 2px rgb(255, 182, 25) solid;
-  border-bottom: 2px rgb(255, 182, 25) solid;
+  border-right: 3px rgb(255, 182, 25) solid;
+  border-bottom: 3px rgb(255, 182, 25) solid;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: arrow;
