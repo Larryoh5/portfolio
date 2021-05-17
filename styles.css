@@ -199,6 +199,10 @@ width: 100%;
 
 
   /*Gallery Home page*/
+  #img0{
+    background-image: url(images/Heroku_express.png);
+    background-size: cover;
+  }
 
   #img1{
     background-image: url(images/WEB420-12.png);
