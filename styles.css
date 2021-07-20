@@ -234,6 +234,17 @@ width: 100%;
     background-size: cover;
   }
 
+  #img7{
+    background-image: url(images/WEB420-15.png);
+    background-size: cover;
+  }
+
+  #img8{
+    background-image: url(images/In-n-out-books.png);
+    background-size: cover;
+  }
+
+
   .item:hover  {
     color:#000;
     opacity:0.25;
