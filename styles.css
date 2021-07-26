@@ -244,6 +244,10 @@ width: 100%;
     background-size: cover;
   }
 
+  #img9{
+    background-image: url(images/BCRimg.png);
+    background-size: cover;
+  }
 
   .item:hover  {
     color:#000;
