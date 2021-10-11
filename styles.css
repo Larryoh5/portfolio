@@ -160,7 +160,7 @@ width: 100%;
   .hs {
     display: grid;
     grid-gap: calc(var(--gutter) / 2);
-    grid-template-columns: 10px repeat(6, calc(50% - var(--gutter) * 2)) 10px;
+    grid-template-columns: 10px repeat(12, calc(50% - var(--gutter) * 2)) 10px;
     grid-template-rows: minmax(200px, 1fr);
     
     overflow-x: scroll;
@@ -179,6 +179,7 @@ width: 100%;
   .hide-scroll {
     overflow-y: hidden;
     margin-bottom: calc(-.1 * var(--gutter));
+    
   }
   
   
@@ -187,7 +188,7 @@ width: 100%;
   .item {
     scroll-snap-align: center;
     padding: calc(var(--gutter) / 2 * 1.5);
-    display: flex;
+    display:inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -246,6 +247,11 @@ width: 100%;
 
   #img9{
     background-image: url(images/BCRimg.png);
+    background-size: cover;
+  }
+
+  #img10{
+    background-image: url(images/Screen\ Shot\ 2021-10-11\ at\ 1.57.00\ PM.png);
     background-size: cover;
   }
 
